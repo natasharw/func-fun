@@ -1,0 +1,193 @@
+Standard ML of New Jersey (32-bit) v110.96 [built: Fri Dec 13 14:51:36 2019]
+- use "dates.sml";
+[opening dates.sml]
+dates.sml:13.5-13.8 Error: syntax error: replacing  LET with  EQUALOP
+dates.sml:14.5 Error: syntax error: inserting  ORELSE
+[unexpected exception: Compile]
+
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:19.24-19.46
+             ../compiler/TopLevel/interact/evalloop.sml:45.54
+             ../compiler/TopLevel/interact/evalloop.sml:306.20-306.23
+             ../compiler/TopLevel/interact/interact.sml:65.13-65.16
+- 
+
+Process sml finished
+Standard ML of New Jersey (32-bit) v110.96 [built: Fri Dec 13 14:51:36 2019]
+- use "dates.sml";
+[opening dates.sml]
+dates.sml:13.9 Error: syntax error: inserting  VAL
+[unexpected exception: Compile]
+
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:19.24-19.46
+             ../compiler/TopLevel/interact/evalloop.sml:45.54
+             ../compiler/TopLevel/interact/evalloop.sml:306.20-306.23
+             ../compiler/TopLevel/interact/interact.sml:65.13-65.16
+- 
+
+Process sml finished
+Standard ML of New Jersey (32-bit) v110.96 [built: Fri Dec 13 14:51:36 2019]
+- use "dates.sml";
+[opening dates.sml]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val num_in_month = fn : (int * int * int) list * int -> int
+val it = () : unit
+- 
+
+Process sml finished
+Standard ML of New Jersey (32-bit) v110.96 [built: Fri Dec 13 14:51:36 2019]
+- use "dates.sml";
+[opening dates.sml]
+dates.sml:16.5 Error: syntax error found at END
+[unexpected exception: Compile]
+
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:19.24-19.46
+             ../compiler/TopLevel/interact/evalloop.sml:45.54
+             ../compiler/TopLevel/interact/evalloop.sml:306.20-306.23
+             ../compiler/TopLevel/interact/interact.sml:65.13-65.16
+- 
+
+Process sml finished
+Standard ML of New Jersey (32-bit) v110.96 [built: Fri Dec 13 14:51:36 2019]
+- use "dates.sml";
+[opening dates.sml]
+dates.sml:16.5 Error: syntax error found at END
+[unexpected exception: Compile]
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:19.24-19.46
+             ../compiler/TopLevel/interact/evalloop.sml:45.54
+             ../compiler/TopLevel/interact/evalloop.sml:306.20-306.23
+             ../compiler/TopLevel/interact/interact.sml:65.13-65.16
+- use "dates.sml";
+[opening dates.sml]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val num_in_month = fn : (int * int * int) list * int -> bool
+val it = () : unit
+- 
+
+Process sml finished
+Standard ML of New Jersey (32-bit) v110.96 [built: Fri Dec 13 14:51:36 2019]
+- use "dates.sml";
+[opening dates.sml]
+dates.sml:17.1-57.1 Error: unclosed comment
+dates.sml:57.1 Error: syntax error found at EOF
+[unexpected exception: Compile]
+
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:19.24-19.46
+             ../compiler/TopLevel/interact/evalloop.sml:45.54
+             ../compiler/TopLevel/interact/evalloop.sml:306.20-306.23
+             ../compiler/TopLevel/interact/interact.sml:65.13-65.16
+- 
+
+Process sml finished
+Standard ML of New Jersey (32-bit) v110.96 [built: Fri Dec 13 14:51:36 2019]
+- use "dates.sml";
+[opening dates.sml]
+dates.sml:57.1 Error: syntax error found at EOF
+[unexpected exception: Compile]
+
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:19.24-19.46
+             ../compiler/TopLevel/interact/evalloop.sml:45.54
+             ../compiler/TopLevel/interact/evalloop.sml:306.20-306.23
+             ../compiler/TopLevel/interact/interact.sml:65.13-65.16
+- 
+
+Process sml finished
+Standard ML of New Jersey (32-bit) v110.96 [built: Fri Dec 13 14:51:36 2019]
+- use "dates.sml";
+[opening dates.sml]
+dates.sml:59.1 Error: syntax error found at EOF
+[unexpected exception: Compile]
+
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:19.24-19.46
+             ../compiler/TopLevel/interact/evalloop.sml:45.54
+             ../compiler/TopLevel/interact/evalloop.sml:306.20-306.23
+             ../compiler/TopLevel/interact/interact.sml:65.13-65.16
+- 
+
+Process sml finished
+Standard ML of New Jersey (32-bit) v110.96 [built: Fri Dec 13 14:51:36 2019]
+- use "dates.sml";
+[opening dates.sml]
+dates.sml:14.10-14.45 Error: operator and operand do not agree [tycon mismatch]
+  operator domain: (int * int * int) list * int
+  operand:         (int * int * int) list
+  in expression:
+    num_in_month (tl dts)
+val it = () : unit
+- 
+
+Process sml finished
+Standard ML of New Jersey (32-bit) v110.96 [built: Fri Dec 13 14:51:36 2019]
+- use "dates.sml";
+[opening dates.sml]
+dates.sml:14.41-14.43 Error: unbound variable or constructor: dt
+val it = () : unit
+- 
+
+Process sml finished
+Standard ML of New Jersey (32-bit) v110.96 [built: Fri Dec 13 14:51:36 2019]
+- use "dates.sml";
+[opening dates.sml]
+val is_older = fn : (int * int * int) * (int * int * int) -> bool
+val num_in_month = fn : (int * int * int) list * int -> int
+val it = () : unit
+- num_in_month([(1 2 1999), (2 3 1999)]), 2);
+stdIn:2.39 Error: syntax error found at COMMA
+- num_in_month([(1 2 1999),(2 3 1999)], 2);
+stdIn:1.17-2.7 Error: operator is not a function [overload conflict]
+  operator: [int ty]
+  in expression:
+    1 2
+stdIn:2.10-2.18 Error: operator is not a function [overload conflict]
+  operator: [int ty]
+  in expression:
+    2 3
+- num_in_month([(1,2,1999), (2,3,1999)]), 2);
+stdIn:2.22 Error: syntax error found at COMMA
+- num_in_month([], 2);
+val it = 0 : int
+- num_in_month([(1 2 1999), (2 3 1999)]), 2);
+stdIn:3.39 Error: syntax error found at COMMA
+- num_in_month([(1 2 1999), (2 3 1999)]), 2);
+stdIn:3.18 Error: syntax error found at COMMA
+- num_in_month([], 2);
+val it = 0 : int
+- num_in_month([], 2);
+val it = 0 : int
+- num_in_month([], 2);
+val it = 0 : int
+- num_in_month([], 2);
+val it = 0 : int
+- num_in_month([], 2);
+val it = 0 : int- num_in_month([], 2);
+val it = 0 : int
+- num_in_month([(1,2,1999], 2);
+stdIn:9.24-9.26 Error: syntax error: deleting  RBRACKET COMMA
+- num_in_month([(1,2,1999)], 2);
+val it = 2 : int
+- num_in_month([(1,2,1999),(1,2,1998)], 2);
+val it = 4 : int
+- num_in_month([(1,2,1999),(1,2,1998)], 2);
+val it = 4 : int
+- num_in_month([(1,2,1999),(1,2,1998)], 2);
+val it = 4 : int
+- 
+Process sml finished
+Standard ML of New Jersey (32-bit) v110.96 [built: Fri Dec 13 14:51:36 2019]
+- use "dates.sml";
+[opening dates.sml]
+dates.sml:15.6 Error: syntax error: inserting  VAL
+[unexpected exception: Compile]
+
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:19.24-19.46
+             ../compiler/TopLevel/interact/evalloop.sml:45.54
+             ../compiler/TopLevel/interact/evalloop.sml:306.20-306.23
+             ../compiler/TopLevel/interact/interact.sml:65.13-65.16
+- 

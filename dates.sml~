@@ -1,0 +1,48 @@
+
+
+(* is_older : for tuple pair representing dd-mm-yyyy, return true if first tuple is older *)
+fun is_older (dt1 : (int * int * int), dt2 : (int * int * int)) =
+    if (#3 dt1 <  #3 dt2) then true
+    else if (#3 dt1 = #3 dt2) andalso (#2 dt1 <  #2 dt2) then true
+    else if (#3 dt1 = #3 dt2) andalso (#2 dt1 =  #2 dt2) andalso (#1 dt1 <  #1 dt2) then true
+    else false
+
+
+(* num_in_month : recursively calculates how many instances of month in a list of dates *)
+fun num_in_month (dts : (int*int*int) list, mth : int) =
+    let val c = 0
+    if #2 (hd(dts)) = mth then true
+    else false
+				 
+
+(*
+
+    if null dts
+    then NONE
+    else let
+	fun num_in_month_nonempty ( dts : (int*int*int) list, mth : int) =
+	    if null (tl dts) andalso #2 (hd dts) = mth then c = c + 1
+	    else if null (tl dts) then c
+	    else num_in_month_nonempty(tl dts)
+    in
+	SOME (num_in_month_nonempty dts)
+    end
+*)
+
+(* num_in_month : recursively calculate instances of month in list of dates *)
+(*
+fun num_in_month (dts : (int*int*int) list, mth int) =
+    c = 0
+    if null dts
+    then NONE
+    else
+	let val c = num_in_month(tl dts)
+	in if isSome c andalso valOf c 
+	fun num_in_month_nonempty ( dts : (int*int*int) list, mth int) =
+	    if null (tl dts) andalso hd dts = mth then c = c + 1
+	    else if null (tldts) then c
+	    else num_in_month_nonempty(tl dts)
+    in
+	SOME (num_in_month_nonempty dts)
+    end
+*)

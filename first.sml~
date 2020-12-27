@@ -1,0 +1,6 @@
+(* sequence of variable bindings *)
+
+val x = 34;
+
+val y = 17;
+
